@@ -4,7 +4,7 @@ const socketServer = (server) => {
   // Setting up Socket-io
   const io = require('socket.io')(server, {
     cors: {
-      origin: 'http://localhost:3000',
+      origin: 'https://heliocall.onrender.com',
       methods: ['GET', 'POST'],
       credentials: true,
     },
