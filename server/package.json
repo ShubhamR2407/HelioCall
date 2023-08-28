@@ -4,8 +4,7 @@
   "description": "google-meet-clone",
   "main": "server/server.js",
   "scripts": {
-    "build": "yarn build",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
