@@ -6,7 +6,7 @@ import Room from './pages/Room'
 import LoginAndSignUp from './pages/LoginAndSignUp'
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:5000/api"
+  axios.defaults.baseURL = "https://heliocall-backend.onrender.com/api"
   axios.defaults.withCredentials = true;
   return (
       <div>
