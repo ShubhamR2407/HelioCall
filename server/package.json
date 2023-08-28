@@ -22,7 +22,7 @@
   },
   "engines": {
   "node": ">=14.20.1"
-}
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
