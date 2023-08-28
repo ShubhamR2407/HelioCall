@@ -19,6 +19,11 @@ const server = app.listen(process.env.PORT, () => {
   console.log(`listening on port ${process.env.PORT}`.yellow.underline)
 })
 
+//Checking
+app.get("/", (req, res) => {
+  res.json("hello");
+});
+
 //connection Socket
 socketServer(server)
 
