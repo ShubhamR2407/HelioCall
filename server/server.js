@@ -33,7 +33,7 @@ app.use(cookieParser())
 //Enabling cors
 app.use(
   cors({
-    origin: 'https://heliocall-p7sw.onrender.com',
+    origin: 'https://heliocall-frontend.onrender.com',
     credentials: true,
   })
 )
