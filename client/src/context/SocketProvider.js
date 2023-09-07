@@ -9,7 +9,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = (props) => {
-  const socket = useMemo(() => io("https://heliocall-backend.onrender.com"), []);
+  const socket = useMemo(() => io("https://heliocall-backend-ex6p.onrender.com"), []);
 
   return (
     <SocketContext.Provider value={socket}>
